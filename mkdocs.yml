@@ -1,0 +1,8 @@
+site_name: "restore2"
+site_description: "restore2"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "restore2"
+  description: "restore2"
+  links:
+    - url: https://api-restore2-anderson-dev.empcbr.thoughtworks-labs.net/swagger
+      title: restore2
+      icon: dashboard
+  annotations:
+    circleci.com/project-slug: github/platform-dx/restore2-0c3579e
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug:  platform-dx/restore2-0c3579e
+    sonarqube.org/project-key: "restore2"
+    backstage.io/kubernetes-label-selector: "app=restore2"
+    backstage.io/adr-location: docs/adrs/
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "anderson"
+  providesApis:
+    - "restore2"
